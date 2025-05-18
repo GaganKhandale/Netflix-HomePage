@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color:black;
+        }
+        .header img {
+            width: 120px;
+        }
+        .header .options {
+            display: flex;
+            align-items: center;
+        }
+        .header select, .header button {
+            margin-left: 10px;
+            padding: 8px;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+        .hero{
+            text-align: center;
+            padding: 100px 20px; 
+            background: url(./the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg) no-repeat center;
+        }
+        .hero input {
+            padding: 10px;
+            width: 300px;
+        }
+        .hero button {
+            padding: 10px;
+            background: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .categories{
+            padding: 40px 20px;
+        }
+        .image{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+         .faq {
+            padding: 40px 20px;
+        }
+        .footer {
+            background: black;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: gray;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>
+    <div class="header">
+        <img src="./logo.jpeg" alt="Netflix Logo">
+        <div class="options">
+            <select>
+                <option>English</option>
+                <option>Hindi</option>
+            </select>
+            <button>Sign In</button>
+        </div>
+    </div>
+    <div class="hero">
+        <h1>Unlimited movies, TV shows, and more</h1>
+        <h5>Watch anywhere. Cancel anytime.</h5>
+        <input type="email" placeholder="Enter your email">
+        <button>Get Started</button>
+    </div>
+
+    <div class="categories">
+        <h2>Popular on Netflix</h2>
+        <div class="image">
+        <div class="card1" style="width: 10rem; ">
+            <img src="./1.jpeg" class="card-img-top" alt="...">
+            </div>
+        <div class="card2" style="width: 10rem;" >
+            <img src="./2.jpeg" class="card-img-top" alt="...">
+            </div>
+        <div class="card3" style="width: 10rem; ">
+            <img src="./3.jpeg" class="card-img-top" alt="...">
+            </div>
+        <div class="card4" style="width: 10rem; ">
+            <img src="./4.jpeg" class="card-img-top" alt="...">
+            </div>
+        <div class="card5" style="width: 10rem; ">
+            <img src="./5.jpeg" class="card-img-top" alt="...">
+            </div>
+        <div class="card6" style="width: 10rem; ">
+            <img src="./6.jpeg" class="card-img-top" alt="...">
+            </div>
+        <div class="card7" style="width: 10rem; ">
+            <img src="./7.jpeg" class="card-img-top" >
+            </div>
+        <div class="card7" style="width: 10rem; ">
+            <img src="./8.jpeg" class="card-img-top">
+            </div>
+          </div>
+        </div>
+
+    <div class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 <strong>What is Netflix? </strong>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>
+                    Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies,
+                     anime, documentaries and more on thousands of internet-connected devices
+                    You can watch as much as you want, whenever you want, without a single add all for one low monthly price.
+                     There's always something new to discover, and new TV shows and movies are added every week!
+                    </strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <strong> much does Netflix cost?</strong>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from 149 to 649 a month.No extra costs, no contracts</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <strong>How do I cancel?</strong>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Netflix is flexible. There are no annoying contracts and commitments. YOu can easily cancel your
+                    account online in two clicks. There are no cancellation fees-start or stop your account anytime.
+                  </strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <strong>What can I watch on Netflix?</strong>
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <strong>Where can I watch?</strong>
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Watch anywhere and anytime</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+
+    <div class="footer">
+        <a href="#">Jobs</a>
+        <a href="#">Privacy</a>
+        <a href="#">Accounts</a>
+        <a href="#">Help</a>
+        <a href="#">Legal Notices</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Contact Us</a>
+    </div>
+</body>
+</html>
